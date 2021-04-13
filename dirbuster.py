@@ -166,7 +166,6 @@ def auraBuster(url, mode):
 
         # Test site
         if rF.status_code != 404:
-            print(rF.status_code)
             print("Valid directory found!\n"+finalUrl+"\n")
             currentProxy = None
             return
